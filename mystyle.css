@@ -99,7 +99,7 @@ button:active {
   font-weight: bolder;
 }
 
-#btn button {
+#btn {
   margin-top: 20px;
   padding: 8px;
 }
