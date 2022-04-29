@@ -5,7 +5,7 @@ function checkTime(i) {
   }
   return i;
 }
-  
+
 function startTime() {
   const today = new Date();
   let hr = today.getHours();
@@ -28,7 +28,7 @@ function startTime() {
   document.getElementById('date').innerHTML = date;
   setTimeout(() => { startTime(); }, 1000);
 }
-  // This code above was recovered from https://programacion.net/
+// This code above was recovered from https://programacion.net/
 window.onload = startTime();
 
 // Get all id's
@@ -43,7 +43,6 @@ const name = document.getElementById('name');
 const director = document.getElementById('director');
 const addBtn = document.getElementById('btn');
 let datamovies = JSON.parse(localStorage.getItem('movie')) || [];
-
 
 class Movio {
   constructor(name, director) {
@@ -109,4 +108,4 @@ contactBtn.addEventListener('click', () => {
   containerMovies.style.display = 'none';
   addNew.style.display = 'none';
   contact.style.display = 'flex';
-})
+});
