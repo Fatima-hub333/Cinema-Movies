@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Montserrat:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #362222;
+  height: 80px;
+  width: 100vw;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  column-gap: 10px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffccd2;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.icons {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  font-size: 30px;
+  color: #ffccd2;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieStorage {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  border: 2px solid #c1a3a3;
+  width: 500px;
+  font-weight: bold;
+}
+
+#addmovie {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+#addmovie input {
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+button {
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #bf9270;
+}
+
+button:active {
+  background-color: #bf9270;
+  font-weight: bolder;
+}
+
+#btn button {
+  margin-top: 20px;
+  padding: 8px;
+}
+
+#contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 8% 25%;
+}
+
+#contact p {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact ul {
+  margin-left: 30px;
+  margin-top: 20px;
+  list-style-type: square;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  color: #362222;
+  background-color: #dacc96;
+}

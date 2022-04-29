@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Boostrap icons link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Custom CSS Links -->
+  <link rel="stylesheet" href="mystyle.css">
+
+  <title>Cinema Ticket Website</title>
+</head>
+<body>
+<header>
+  <nav id="navbar">
+    <img class="logo" src="images/logo.png" alt="logo">
+    <ul class="icons">
+      <li><i class="bi bi-facebook icon-white"></i></li>
+      <li><i class="bi bi-twitter icon-white"></i></li>
+      <li><i class="bi bi-instagram icon-white"></i></li>
+      <li><i class="bi bi-linkedin icon-white"></i></li>
+    </ul>
+    <ul class="menu">
+      <li><a id="moviesbtn" href="#">List</a></li>
+      <li><a id="addMoviebtn" href="#">Add New Movie</a></li>
+      <li><a id="contactBtn" href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="main">
+  <div class="clock">
+    <div id="date"></div>
+    <div id="clock"></div>
+  </div>
+
+  <div id="container">
+    <h1>Film Genres</h1>
+    <div id="movies"></div>
+  </div>
+
+<form id="addmovie">
+  <h2>Add a New Movie</h2>
+  <div>
+    <label for="name"></label>
+    <input type="text" id="name" placeholder="Movie Name">
+  </div>
+  <div>
+    <label for="director"></label>
+    <input type="text" id="director" placeholder="Movie Director">
+  </div>
+  <button id="btn">Add Movie</button>
+</form>
+
+<div id="contact">
+  <h2>Contact Information</h2>
+  <p>Want to connect with us. Then What you are waiting for? <br>Contact us we will get back to you!!</p>
+  <ul>
+    <li><b>Our Email:</b> demo@gmail.com</li>
+    <li><b>Our Contact#:</b> +92 345 4576</li>
+    <li><b>Our Address:</b> SteetName abcg, Street# 123 City aghb</li>
+  </ul>
+</div>
+</section>
+
+<footer>
+  <p>Copyright @2022, <a href="https://github.com/Fatimahub333/Awesome_Books/blob/main/MIT.md"></a>
+  Website for Educational purposes, based on wireframe provided by Microverse.
+  </p>
+</footer>
+<script type="module" src="script.js"></script>
+</body>
+</html>
