@@ -125,6 +125,10 @@ button:active {
   font-weight: bold;
 }
 
+#icons ul {
+  list-style-type: none;
+}
+
 footer {
   text-align: center;
   line-height: 50px;
