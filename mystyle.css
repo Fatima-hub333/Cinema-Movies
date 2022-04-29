@@ -40,6 +40,7 @@
   align-items: center;
   font-size: 30px;
   color: #ffccd2;
+  list-style-type: none;
 }
 
 .clock {
@@ -123,10 +124,6 @@ button:active {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   font-weight: bold;
-}
-
-.icons ul {
-  list-style-type: none;
 }
 
 footer {
